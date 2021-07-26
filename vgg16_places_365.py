@@ -11,7 +11,7 @@ import os
 import warnings
 import numpy as np
 
-from tensorflow import keras.backend as K
+from tensorflow.keras import backend as K
 
 from tensorflow.keras.layers import Input
 from keras.layers import Activation, Dense, Flatten
