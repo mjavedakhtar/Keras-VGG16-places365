@@ -11,9 +11,10 @@ import os
 import warnings
 import numpy as np
 
-from keras import backend as K
-from keras.layers import Input
-from keras.layers.core import Activation, Dense, Flatten
+from tensorflow import keras.backend as K
+
+from tensorflow.keras.layers import Input
+from keras.layers import Activation, Dense, Flatten
 from keras.layers.pooling import MaxPooling2D
 from keras.models import Model
 from keras.layers import Conv2D
